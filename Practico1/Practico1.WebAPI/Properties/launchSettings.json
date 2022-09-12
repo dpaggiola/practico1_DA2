@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/users",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "Practico1.WebAPI": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/users",
       "applicationUrl": "https://localhost:63338;http://localhost:50208",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

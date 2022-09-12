@@ -5,4 +5,18 @@
   </PropertyGroup>
 
 
+  <ItemGroup>
+    <ProjectReference Include="..\Practico1.BusinessLogic\Practico1.BusinessLogic.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Practico1.IBusinessLogic\Practico1.IBusinessLogic.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Practico1.IDataAccess\Practico1.IDataAccess.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\Practico1.DataAccess\Practico1.DataAccess.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
