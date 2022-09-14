@@ -4,7 +4,7 @@ using Practico1.Domain;
 
 namespace Practico1.DataAccess
 {
-    public class ContextDb : DbContext
+    public class ContextDb: DbContext
     {
         public DbSet<User> Users { get; set; }
 
