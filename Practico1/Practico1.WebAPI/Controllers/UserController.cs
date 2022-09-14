@@ -37,7 +37,7 @@ namespace Practico1.WebAPI.Controllers
         public IActionResult Delete([FromRoute] int id)
         {
             _userService.Delete(id);
-            return Ok();
+            return NoContent();
         }
     }
 }
