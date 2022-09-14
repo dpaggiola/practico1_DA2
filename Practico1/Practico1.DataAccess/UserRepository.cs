@@ -7,7 +7,7 @@ namespace Practico1.DataAccess
 {
     public class UserRepository : IUserRepository
     {
-        public ContextDb _contextDb;
+        private ContextDb _contextDb;
 
         public UserRepository(ContextDb contextDb)
         {
@@ -29,6 +29,11 @@ namespace Practico1.DataAccess
         {
             _contextDb.Remove(entity);
             _contextDb.SaveChanges();
+        }
+
+        public User GetById(int id)
+        {
+            return _contextDb.Users.Find(id);
         }
     }
 }

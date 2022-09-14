@@ -9,6 +9,7 @@ namespace Practico1.IDataAccess
         void Add(User entity);
         void Remove(User entity);
         IQueryable<User> GetAll();
+        User GetById(int id);
     }
 }
 
