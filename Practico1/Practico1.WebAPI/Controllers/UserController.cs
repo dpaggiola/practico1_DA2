@@ -32,6 +32,13 @@ namespace Practico1.WebAPI.Controllers
             User userCreated = _userService.Create(user);
             return Created("", userCreated);
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete([FromRoute] int id)
+        {
+            _userService.Delete(id);
+            return Ok();
+        }
     }
 }
 
