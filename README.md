@@ -1,2 +1,2 @@
-# practico1_DA2
+# Practico1 DA2
 Primer práctico de DA2.
